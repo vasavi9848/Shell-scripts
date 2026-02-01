@@ -1,4 +1,4 @@
-# date:1/1/2026
+# date:31/1/2026
 #
 # this script outputs the node health
 # version:v1
