@@ -1,11 +1,9 @@
 #!/bin/bash
 
-country1=India
-country2=USA
-if [ "$country1" == "India" ];
- then
-    echo "I am from India"
-else
-    echo "I am not from India"
-fi
-echo "I am from $country1 and I have visited $country2"
+PERSON1=Russia
+PERSON2=Ukraine
+
+echo "$PERSON1: Hey Ukraine, we are going blast you!"
+echo "$PERSON2: Yes, please. you are welcome"
+echo "$PERSON1: Hey $PERSON2 I am serious"
+echo "$PERSON2: Hey $PERSON1, we are also serious"
