@@ -9,7 +9,7 @@ fi
 #Install Mysql server
 
 dnf list installed mysql
-if [ $? -ne 0 ];then
+if [ $? -eq 0 ];then
     echo "mysqly alreay installed----skipping"
 else    
     echo " installing myaql"
